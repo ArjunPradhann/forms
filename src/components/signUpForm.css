@@ -1,0 +1,18 @@
+@media screen and (min-width: 400px) {
+  .LoginDiv {
+    margin: 100px 0px 0px 176px;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .LoginDiv {
+    margin: 20px 0px 0px 40px;
+    width: 80%;
+    height: 100vh;
+  }
+   .CompanyLogo {
+    width: 100%;
+    margin-top: 100px;
+  }
+}

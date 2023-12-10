@@ -1,0 +1,53 @@
+@media screen and (min-width: 400px) {
+  .LoginDiv {
+    margin: 160px 0px 0px 176px;
+    width: 60%;
+  }
+
+  .RadioButtonClass {
+    margin-top: 60px;
+    color: white;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .buttonStyle {
+    background-color: white !important;
+    color: #155bd5;
+    width: 100%;
+    height: 50px;
+    margin-top: 40px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .LoginDiv {
+    margin: 20px 0px 0px 40px;
+    width: 80%;
+    height: 100vh;
+  }
+  .CompanyLogo {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .RadioButtonClass {
+    margin-top: 80px;
+    color: white;
+    width: 100%;
+  }
+
+  .MuiFormGroup-root {
+    flex-direction: column !important;
+    align-content: center;
+  }
+
+  .buttonStyle {
+    background-color: white !important;
+    color: #155bd5;
+    width: 80%;
+    height: 50px;
+    margin-left: 28px !important;
+    margin-top: 40px !important;
+    transition: background 0.3s;
+  }
+}
